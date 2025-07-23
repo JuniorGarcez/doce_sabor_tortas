@@ -1,0 +1,10 @@
+<div id="<%= dom_id product %>" class="card" style="width: 18rem;">
+  <% product.imagens.each do |img| %>
+    <%= image_tag url_for(img) %>
+  <% end %>
+  <div class="card-body">
+    <h5 class="card-title"><%= product.title %></h5>
+    <p class="card-text"><%= product.description %></p>
+    <%= link_to "Show this product", product, class: 'btn btn-primary btn-sm' %>
+  </div>
+</div>
