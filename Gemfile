@@ -5,7 +5,7 @@ gem "rails", "~> 8.0.2"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 # Use postgresql as the database for Active Record
-gem "pg", "~> 1.5", ">= 1.5.6"
+gem "pg", "~> 1.6"
 # Gem pry for Debug
 gem "pry", "~> 0.15.0"
 # Use the Puma web server [https://github.com/puma/puma]
